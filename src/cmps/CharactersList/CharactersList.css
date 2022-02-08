@@ -1,0 +1,54 @@
+.my-custom-scrollbar {
+  position: relative;
+  height: 450px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+.tr {
+  background: white;
+  position: sticky;
+  top: 0; 
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+
+.example {
+  box-sizing: border-box;
+}
+
+form.example input[type="text"] {
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid black;
+  float: left;
+  width: 99%;
+  background: white;
+}
+
+form.example button {
+  margin-top: 0.5%;
+  float: left;
+  margin-left: 0.2%;
+  width: 4%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

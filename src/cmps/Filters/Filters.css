@@ -1,0 +1,22 @@
+.filters-containers {
+  display: flex;
+}
+.gender {
+  margin-top: 2%;
+  margin-left: 0.5%;
+  width: 48%;
+  height: 40px;
+}
+.status {
+  margin-top: 2%;
+  margin-left: 3%;
+  width: 48%;
+  height: 40px;
+}
+
+.clear {
+  margin-left: 1.2%;
+  margin-top: 2%;
+  width: 8%;
+  height: 40px;
+}
