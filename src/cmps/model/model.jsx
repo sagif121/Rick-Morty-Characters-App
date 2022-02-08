@@ -11,7 +11,7 @@ const Model = ({ showModel, user }) => {
             <h1 className="cardName">{user.name} </h1>
             <div className="cardlocation">location: {user.location.name} </div>
             <div className="cardepisode">
-              Number of episode xcccs: {user.episode.length}
+              Number of episodes: {user.episode.length}
             </div>
           </div>
         </div>
